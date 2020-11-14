@@ -33,7 +33,12 @@ In some cases, even the best laid plans will go awry. However, you will be evalu
 Please provide a brief, one or two paragraph description of your project and what you hope to
 analyze:
 
-Our goad is to find out how many possibilities that two or more products will be bought at the same time(or very close time).  
+It is unlikely that people just put a single product to a cart while shopping on Amazon.
+Instead, we would probably choose different products at the same time. For example, if I want to buy
+a package of ground coffee, I probably would also put filter papers into my purchase listing. There
+would be plenty of combinations among these reviews, our goal is to discover every possibility and
+relationship for each product. In other words, we want to find out how many possibilities that 
+two(or more)products will be bought at the same time(or very close time).
 
 
 Provide a list of the deliverables you will turn in:
@@ -47,9 +52,9 @@ Provide a list of the deliverables you will turn in:
 1. Before we start the analysis, we would like to pre-process the dataset to make sure our data is fine.
 The original dataset is a 88GB single json file. As we only care about three fields: asin(product’s ID),
 user’s ID, and ReviewDate. Therefore, we stored the data to HDFS, processed it on Hadoop, filtered out other fields, And then, we got the CSV format data we want.
-2. t 
-3.
-4.
+2. We will want to use spark sql to analyze, so the csv file will be read into Spark sql. 
+3. We will map each user and purchased products, and count the occurence every two products. Then we will sum up these values and calculate the possibilities.
+4. We will also try to use machine learning to analyze and compare the accuracy
 
 This project will be worth about 10 points, so ~4 deliverables is reasonable (2 pts per deliverable).
 Aim for about 1.5 weeks' worth of consistent effort. In other words, this project will be very
