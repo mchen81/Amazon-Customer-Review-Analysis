@@ -8,9 +8,9 @@ Turn in final project deliverables here.
 so please fill this out):
 
 * Dataset description: The dataset we chose is Amazon review dataset. It includes reviews (ratings, text, helpfulness votes), product metadata (descriptions, category information, price, brand, and image features), and links (also viewed/also bought graphs)
-* Format: To make the data easier to analyze, we used Hadoop to transform the raw JSON data to text format.
+* Format: To make the data easier to analyze, we used Hadoop to transform the raw JSON data to CSV format.
 * How you will obtain the data: You can check and download the dataset form here http://deepyeti.ucsd.edu/jianmo/amazon/index.html
-* What features are available:
+* What features are available: Basically, there are three fields we care about: asin(product’s ID), user’s ID, and ReviewDate.
 
 If you are going to use a new system we didn't cover in class, describe it here.
 Your project can focus more on using/learning new technologies rather than analysis
@@ -41,6 +41,13 @@ Provide a list of the deliverables you will turn in:
 2. We will implement DEF algorithm
 3. Then we will process the data using GHI
 4. Finally, we will do X, Y, and Z.
+
+1. Before we start the analysis, we would like to pre-process the dataset to make sure our data is fine.
+The original dataset is a 88GB single json file. As we only care about three fields: asin(product’s ID),
+user’s ID, and ReviewDate. Therefore, we stored the data to HDFS, processed it on Hadoop, filtered out other fields, And then, we got the CSV format data we want.
+2.
+3.
+4.
 
 This project will be worth about 10 points, so ~4 deliverables is reasonable (2 pts per deliverable).
 Aim for about 1.5 weeks' worth of consistent effort. In other words, this project will be very
