@@ -7,7 +7,7 @@ Turn in final project deliverables here.
 (We already did a lab on this, but you may have changed your mind since then,
 so please fill this out):
 
-* Dataset description:
+* Dataset description: The dataset we chose is Amazon review dataset. It includes reviews (ratings, text, helpfulness votes), product metadata (descriptions, category information, price, brand, and image features), and links (also viewed/also bought graphs)
 * Format: To make the data easier to analyze, we used Hadoop to transform the raw JSON data to text format.
 * How you will obtain the data: You can check and download the dataset form here http://deepyeti.ucsd.edu/jianmo/amazon/index.html
 * What features are available:
