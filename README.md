@@ -42,6 +42,7 @@ Provide a list of the deliverables you will turn in:
 3. Then we will process the data using GHI
 4. Finally, we will do X, Y, and Z.
 
+----
 1. Before we start the analysis, we would like to pre-process the dataset to make sure our data is fine.
 The original dataset is a 88GB single json file. As we only care about three fields: asin(product’s ID),
 user’s ID, and ReviewDate. Therefore, we stored the data to HDFS, processed it on Hadoop, filtered out other fields, And then, we got the CSV format data we want.
