@@ -8,8 +8,8 @@ Turn in final project deliverables here.
 so please fill this out):
 
 * Dataset description:
-* Format:
-* How you will obtain the data:
+* Format: To make the data easier to analyze, we used Hadoop to transform the raw JSON data to text format.
+* How you will obtain the data: You can check and download the dataset form here http://deepyeti.ucsd.edu/jianmo/amazon/index.html
 * What features are available:
 
 If you are going to use a new system we didn't cover in class, describe it here.
