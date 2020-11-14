@@ -33,7 +33,8 @@ In some cases, even the best laid plans will go awry. However, you will be evalu
 Please provide a brief, one or two paragraph description of your project and what you hope to
 analyze:
 
-(add your description here)
+Our goad is to find out how many possibilities that two or more products will be bought at the same time(or very close time).  
+
 
 Provide a list of the deliverables you will turn in:
 
@@ -46,7 +47,7 @@ Provide a list of the deliverables you will turn in:
 1. Before we start the analysis, we would like to pre-process the dataset to make sure our data is fine.
 The original dataset is a 88GB single json file. As we only care about three fields: asin(product’s ID),
 user’s ID, and ReviewDate. Therefore, we stored the data to HDFS, processed it on Hadoop, filtered out other fields, And then, we got the CSV format data we want.
-2.
+2. t 
 3.
 4.
 
