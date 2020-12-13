@@ -2,6 +2,11 @@
 
 Turn in final project deliverables here.
 
+## [Project Report](https://docs.google.com/document/d/1bmzZ2TO4tE5mYmTCUBtwjCCvIJoKpjykm1uF5LLd-HY/edit?usp=sharing)
+https://docs.google.com/document/d/1bmzZ2TO4tE5mYmTCUBtwjCCvIJoKpjykm1uF5LLd-HY/edit?usp=sharing
+
+-----
+
 ## Dataset
 
 (We already did a lab on this, but you may have changed your mind since then,
