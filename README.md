@@ -22,11 +22,11 @@ relationship for each product. In other words, we want to find out how much rele
 two(or more)products will be bought at the same time(or very close time).
 
 ----
-1. Before we start the analysis, we would like to pre-process the dataset to make sure our data is fine.
+1.Before we start the analysis, we would like to pre-process the dataset to make sure our data is fine.
 The original dataset is a 120GB single json file. As we only care about three fields: asin(product’s ID),
-user’s ID, and ReviewDate. Therefore, we stored the data to HDFS, processed it on Hadoop, filtered out other fields, And then, we got the tsv format.
+user’s ID, and ReviewDate. Therefore, we stored the data to HDFS, processed it on Hadoop, filtered out other fields, And then, we got the tsv format.  [Code1](https://github.com/usf-cs677-fa20/P4-jerry-jiachen-p4/blob/main/data_transform.ipynb), [Code2](https://github.com/usf-cs677-fa20/P4-jerry-jiachen-p4/blob/main/amazon_data_parser.ipynb)  
 2. We will want to use spark sql to analyze, so the csv file will be read into Spark sql. 
-3. Before we start to analyze the relavance, we also want to know what the most popular and hatest products for some categories. 
-4. We will map each user and purchased products, and count the occurence every two products. Then we will sum up these values and calculate the relevance.
+3. Before we start to analyze the relavance, we also want to know what the most popular and hatest products for some categories. [reviews](https://github.com/usf-cs677-fa20/P4-jerry-jiachen-p4/blob/main/task3_top_review.ipynb), [Hot product](https://github.com/usf-cs677-fa20/P4-jerry-jiachen-p4/blob/main/task3_hot_product_average_score.ipynb), [good/bad products](https://github.com/usf-cs677-fa20/P4-jerry-jiachen-p4/blob/main/task3_good_bad_hot_products.ipynb)
+4. We will map each user and purchased products, and count the occurence every two products. Then we will sum up these values and calculate the relevance. [Code](https://github.com/usf-cs677-fa20/P4-jerry-jiachen-p4/blob/main/products_relationship.ipynb)
 
 
