@@ -2,8 +2,9 @@
 
 Turn in final project deliverables here.
 
-## [Project Report](https://docs.google.com/document/d/1bmzZ2TO4tE5mYmTCUBtwjCCvIJoKpjykm1uF5LLd-HY/edit?usp=sharing)
-https://docs.google.com/document/d/1bmzZ2TO4tE5mYmTCUBtwjCCvIJoKpjykm1uF5LLd-HY/edit?usp=sharing
+## Project Report
+[Report in Google Doc](https://docs.google.com/document/d/1bmzZ2TO4tE5mYmTCUBtwjCCvIJoKpjykm1uF5LLd-HY/edit?usp=sharing)  
+[Report in PDF](https://drive.google.com/file/d/1iu4ooD8Wm0Z0mP8x5EJhG04Spud2mBs7/view?usp=sharing)
 
 -----
 
